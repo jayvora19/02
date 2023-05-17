@@ -40,10 +40,10 @@ class evamaria(Client):
         )
 
 # Bot information
-SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ['API_ID'])
-API_HASH = environ['API_HASH']
-BOT_TOKEN = environ['BOT_TOKEN']
+SESSION = environ.get('BQGZ4aYAvtsIfMJpRIIBLTKskWOD9-zdV25gexQ-744mAMfM9xDKmtD4LsGdWp4srQtcl-U-n6v241JtTxORuffwdE_E3flodf4ZXt_qI5ELZ8w1upGaYlvnjIjw8De_Vj_idleWlhdXj7o2oTYEuCkU49wx7S_w3GfnVo9Hx-VzjRMKp2zjkErdNa5UsXxKt-xuSsCF6iRcMXvT08jMOYIiidJ3snEX4ZbUYtojEzlzajmnaB8DOkq1waL8DwVOGp6RQvizJOrFtxi_FPbmxtvEoCClKHfHvEP_tsn6B--dtS3V26vwC5XA_pT0TkeCbCRJ4t6Q4_u5VHPYamd7Q90g7qAr1AAAAAFnifBOAA', 'Media_search')
+API_ID = int(environ['26861990'])
+API_HASH = environ['0592761ae3a24dcf709d85ab87bc12b9']
+BOT_TOKEN = environ['6004178116:AAGXlZx-VWry9DVw2hooFQrwmKkB8tL1uuc']
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -72,10 +72,10 @@ AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "doctorstrange")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://jayvora:1850@cluster.t5ql7o3.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
-MONGO_URL = os.environ.get('MONGO_URL', "")
+MONGO_URL = os.environ.get('MONGO_URL', "mongodb+srv://jayvora:1850@cluster.t5ql7o3.mongodb.net/?retryWrites=true&w=majority")
 
 
 # Others
